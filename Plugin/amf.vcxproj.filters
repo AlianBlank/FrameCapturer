@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="amf">
+      <UniqueIdentifier>{4c9165c1-c1c2-4a3c-a884-39b11f7e881f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="amf\public">
+      <UniqueIdentifier>{2302fe9e-f0cb-4798-91bc-bca22c75cf27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="amf\public\common">
+      <UniqueIdentifier>{7564db5b-1bff-4d12-94d0-400986cc3515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="amf\public\common\Windows">
+      <UniqueIdentifier>{56447ab6-af5f-42e4-bd28-cf556efffc20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="amf\public\include">
+      <UniqueIdentifier>{fc97030d-6d6e-43d8-80eb-f270e6cf2a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="amf\public\include\components">
+      <UniqueIdentifier>{a0d1d0f0-4fdd-4e73-b82b-a484b6b276be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="amf\public\include\core">
+      <UniqueIdentifier>{2b48f395-d35c-4a45-877f-848d041f4de0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="external\amf\public\common\AMFFactory.cpp">
+      <Filter>amf\public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="external\amf\public\common\AMFSTL.cpp">
+      <Filter>amf\public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="external\amf\public\common\DataStreamFactory.cpp">
+      <Filter>amf\public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="external\amf\public\common\DataStreamFile.cpp">
+      <Filter>amf\public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="external\amf\public\common\DataStreamMemory.cpp">
+      <Filter>amf\public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="external\amf\public\common\IOCapsImpl.cpp">
+      <Filter>amf\public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="external\amf\public\common\PropertyStorageExImpl.cpp">
+      <Filter>amf\public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="external\amf\public\common\Thread.cpp">
+      <Filter>amf\public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="external\amf\public\common\TraceAdapter.cpp">
+      <Filter>amf\public\common</Filter>
+    </ClCompile>
+    <ClCompile Include="external\amf\public\common\Windows\ThreadWindows.cpp">
+      <Filter>amf\public\common\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="external\amf\public\common\AMFFactory.h">
+      <Filter>amf\public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\common\AMFSTL.h">
+      <Filter>amf\public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\common\ByteArray.h">
+      <Filter>amf\public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\common\DataStream.h">
+      <Filter>amf\public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\common\DataStreamFile.h">
+      <Filter>amf\public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\common\DataStreamMemory.h">
+      <Filter>amf\public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\common\InterfaceImpl.h">
+      <Filter>amf\public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\common\IOCapsImpl.h">
+      <Filter>amf\public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\common\ObservableImpl.h">
+      <Filter>amf\public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\common\PropertyStorageExImpl.h">
+      <Filter>amf\public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\common\PropertyStorageImpl.h">
+      <Filter>amf\public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\common\Thread.h">
+      <Filter>amf\public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\common\TraceAdapter.h">
+      <Filter>amf\public\common</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\components\FFMPEGComponents.h">
+      <Filter>amf\public\include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\components\FFMPEGFileDemuxer.h">
+      <Filter>amf\public\include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\components\FFMPEGFileMuxer.h">
+      <Filter>amf\public\include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\components\MediaSource.h">
+      <Filter>amf\public\include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\components\VideoConverter.h">
+      <Filter>amf\public\include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\components\VideoDecoderUVD.h">
+      <Filter>amf\public\include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\components\VideoEncoderVCE.h">
+      <Filter>amf\public\include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\components\Component.h">
+      <Filter>amf\public\include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\components\ComponentCaps.h">
+      <Filter>amf\public\include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\components\FFMPEGAudioConverter.h">
+      <Filter>amf\public\include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\components\FFMPEGAudioDecoder.h">
+      <Filter>amf\public\include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\components\FFMPEGAudioEncoder.h">
+      <Filter>amf\public\include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\Plane.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\Platform.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\PropertyStorage.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\PropertyStorageEx.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\Result.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\Surface.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\Trace.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\Variant.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\Version.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\AudioBuffer.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\Buffer.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\Compute.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\ComputeFactory.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\Context.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\Data.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\Debug.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\Factory.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="external\amf\public\include\core\Interface.h">
+      <Filter>amf\public\include\core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
